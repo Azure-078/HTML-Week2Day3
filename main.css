@@ -1,0 +1,41 @@
+/*Reset CSS*/
+body, h1, p, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%
+}
+body {
+    background-color: #000000;
+    background-image: url(Starfield4.jpg)
+    /*above image was sourced from Jeremy Thomas on Unsplash (Image is used under the Unsplash License)*/ 
+}
+.nav {
+    background-color:#1e2022;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.nav ul, li {
+    color: #ffffff;
+    display: inline;
+    padding: 0px 23px 0 23px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.MyBlog h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 165px;
+    height: 145px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.MyBlog p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+}
